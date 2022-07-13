@@ -1,6 +1,5 @@
 # tiktok-bulk-downloader
-TikTok videos bulk downloader with or without watermark by username. <br>
-*Feel free to write any suggestions you think about.*
+TikTok videos bulk downloader with or without watermark by username. 
 
 # prerequisites 
 ```
@@ -24,3 +23,5 @@ You can take a shortcut and do it all in one command.
 ```
 python tiktok_dl.py --username [target username] --download --watermark
 ```
+<br><br><br><br><br><br><br>
+*Feel free to write any suggestions you think about.*

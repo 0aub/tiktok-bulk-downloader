@@ -2,7 +2,7 @@
 TikTok videos bulk downloader with or without watermark by username
 
 # usage
-At first you should run the script with "generate" option. This will generate and save json file that conatins all user posts data.
+At first, you should run the script with "generate" option. This will generate and save json file that conatins all user posts data.
 ```
 python tiktok_dl.py --username [target username] --generate
 ```

@@ -1,5 +1,6 @@
 # tiktok-bulk-downloader
-TikTok videos bulk downloader with or without watermark by username
+TikTok videos bulk downloader with or without watermark by username.
+*Feel free to write any suggestions you think about.*
 # prerequisites 
 ```
 pip -q install pycryptodome pycryptodomex fake-useragent
@@ -21,8 +22,3 @@ You can take a shortcut and do it all in one command.
 ```
 python tiktok_dl.py --username [target username] --download --watermark
 ```
-
-
-
-
-Feel free to write any suggestions you think about.

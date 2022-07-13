@@ -1,5 +1,5 @@
 # tiktok-bulk-downloader
-TikTok videos bulk downloader with or without watermark by username.
+TikTok videos bulk downloader with or without watermark by username. <br>
 *Feel free to write any suggestions you think about.*
 
 # prerequisites 

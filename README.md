@@ -1,10 +1,12 @@
 # tiktok-bulk-downloader
 TikTok videos bulk downloader with or without watermark by username.
 *Feel free to write any suggestions you think about.*
+
 # prerequisites 
 ```
 pip -q install pycryptodome pycryptodomex fake-useragent
 ```
+
 # usage
 At first, you should run the script with "generate" option. This will generate and save json file that conatins all user posts data.
 ```

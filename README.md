@@ -2,15 +2,16 @@
 TikTok videos bulk downloader with or without watermark by username. 
 
 # prerequisites 
+General requirements
 ```
 pip -q install pycryptodome pycryptodomex
 ```
-only for downloading posts without watermark:
+Only for downloading posts without watermark:
 <li> selenium version 2.48.0 because it support phantomjs browser
 <li> phantomjs is required: https://bitbucket.org/ariya/phantomjs/downloads
 <li> make sure you change the unzipped folder name to 'phantomjs'
   
-the below steps worked fine with me
+The below steps worked fine with me
 ```
 pip -q install selenium==2.48.0
 wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2 
@@ -20,7 +21,7 @@ cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
 
 
 # usage
-script arguments:
+Script arguments:
 <pre>
 <li> -u    --username
 <li> -g    --generate

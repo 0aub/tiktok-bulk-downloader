@@ -21,7 +21,7 @@ cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
 
 
 # usage
-Script arguments:
+Script arguments
 <pre>
 <li> -u    --username
 <li> -g    --generate

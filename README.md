@@ -20,10 +20,10 @@ cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
 
 # usage
 script arguments:
-- -u, --username
-- -g, --generate
-- -d, --download
-- -nw, --no-watermark
+- -u   --username
+- -g   --generate
+- -d   --download
+- -nw  --no-watermark
 
 At first, you should run the script with "generate" option. This will generate and save json file that conatins all user posts data.
 ```

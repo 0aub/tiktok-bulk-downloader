@@ -6,9 +6,9 @@ TikTok videos bulk downloader with or without watermark by username.
 pip -q install pycryptodome pycryptodomex
 ```
 only for downloading posts without watermark:
-- selenium version 2.48.0 because it support phantomjs browser
-- phantomjs is required: https://bitbucket.org/ariya/phantomjs/downloads
-- make sure you change the unzipped folder name to 'phantomjs'
+<li> selenium version 2.48.0 because it support phantomjs browser
+<li> phantomjs is required: https://bitbucket.org/ariya/phantomjs/downloads
+<li> make sure you change the unzipped folder name to 'phantomjs'
 the below steps worked fine with me
 ```
 pip -q install selenium==2.48.0
@@ -20,10 +20,12 @@ cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
 
 # usage
 script arguments:
-- -u ~~~--username
-- -g   --generate
-- -d   --download
-- -nw  --no-watermark
+<pre>
+<li> -u    --username
+<li> -g    --generate
+<li> -d    --download
+<li> -nw   --no-watermark
+</pre>
 
 At first, you should run the script with "generate" option. This will generate and save json file that conatins all user posts data.
 ```

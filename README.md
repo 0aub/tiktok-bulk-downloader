@@ -20,7 +20,7 @@ cp phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
 
 # usage
 script arguments:
-- -u   --username
+- -u ~~~--username
 - -g   --generate
 - -d   --download
 - -nw  --no-watermark

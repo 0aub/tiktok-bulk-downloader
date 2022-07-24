@@ -190,12 +190,23 @@ def update_user():
     path = "/api/user/detail/?uniqueId={}&msToken={}".format(
         USERNAME, PARAMS["msToken"]
     )
-    # update secret user id in params dictionery with the extracted secUid from user detail api
-    response = tiktok_request(path, x_tt_params=None)
-    PARAMS["secUid"] = response["userInfo"]["user"]["secUid"]
-    # assign global user details object
-    global USER_DETAILS
-    USER_DETAILS = response["userInfo"]
+    # catch if the user input was invalid
+    try:
+        # update secret user id in params dictionery with the extracted secUid from user detail api
+        response = tiktok_request(path, x_tt_params=None)
+        PARAMS["secUid"] = response["userInfo"]["user"]["secUid"]
+        # assign global user details object
+        global USER_DETAILS
+        USER_DETAILS = response["userInfo"]
+    except:
+        raise Exception(
+            f"""
+        We could not find data about {USERNAME}.
+        Take a look to these tips and try again.
+          - Do not add @ in the beginning of the username
+          - This script does not accept private accounts yet
+        """
+        )
 
 
 # function to get all user posts ids

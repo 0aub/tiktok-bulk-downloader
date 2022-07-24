@@ -30,6 +30,8 @@ Script arguments
 </pre>
 
 At first, you should run the script with "generate" option. This will generate and save json file that conatins all user posts data.
+<br>
+Note: Do not incloud "@" to the target username
 ```
 python tiktok_dl.py --username [target username] --generate
 ```

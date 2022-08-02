@@ -28,11 +28,11 @@ python tiktok_dl.py --username [target username] --generate
 ```
 You can after that download the videos from the latest saved json file you generate.
 ```
-python tiktok_dl.py --download
+python tiktok_dl.py --username [target username] --download
 ```
 Use "no-watermark" argument in case you want to download the videos without watermark.
 ```
-python tiktok_dl.py --download --no-watermark
+python tiktok_dl.py --username [target username] --download --no-watermark
 ```
 You can take a shortcut and do it all in one command.
 ```

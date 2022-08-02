@@ -5,6 +5,9 @@ TikTok videos bulk downloader with or without watermark by username.
 General requirements
 ```
 pip -q install pycryptodome pycryptodomex
+```
+no watermark requirements
+```
 pip -q install selenium webdriver_manager
 ```
 
